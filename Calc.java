@@ -3,6 +3,7 @@ import java.util.Scanner;
 public class Calc {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
+        System.out.println("Введите два числа (арабских или римских): ");
         String input = scanner.nextLine();
 
         String[] operands = input.split(" ");
